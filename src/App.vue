@@ -26,5 +26,7 @@ export default {
   padding: 0;
   margin: 0;
 }
-
+.routerLink {
+  text-decoration: none;
+}
 </style>

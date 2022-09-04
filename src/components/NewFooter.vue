@@ -48,7 +48,7 @@
           </div>
         </div>
 
-        <hr style="margin: 30px 100px" />
+        <div style="padding: 20px"></div>
 
         <div class="container-footer">
           <div class="creditos">
@@ -150,7 +150,7 @@
           </div>
         </div>
 
-        <hr style="margin: 30px 100px" />
+        <div style="padding: 20px"></div>
 
         <div class="container-footer">
           <div class="creditos">
@@ -246,7 +246,6 @@ footer {
 }
 
 /* imagens do laboratório */
-
 
 .barra {
   width: 3px;

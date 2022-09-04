@@ -20,8 +20,8 @@
                   </div>
                   <p>{{ grid.description }}</p>
                 </div>
-              </div></router-link
-            >
+              </div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -71,45 +71,45 @@ export default {
       cardInfos: {
         conteudos: [
           {
-            nameLab: "Nome do curso",
+            nameLab: "Consultoria",
             description:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting ets containing Lorem Ipsum passages, and em Ipsum.",
+              "O Mackenzie Soluções desenvolve projetos de Pesquisa e Desenvolvimento (P&D), com execução de atividades de longo prazo que resultam em tecnologia e inovação.",
             imgCard: "/banners/image1.jpg",
             toLink: "./homeMack",
           },
           {
-            nameLab: "Nome do curso",
+            nameLab: "Pesquisa & Desenvolvimento",
             description:
-              "Lorem Ipsumn Maker including versions of Lorem Ipsum.",
+              "O Mackenzie Soluções trabalha em parceria com o cliente, preparando a empresa para responder rapidamente e com muita competência às demandas e oportunidades que o mercado oferece.",
             imgCard: "/banners/image2.jpg",
             toLink: "./homeMack",
           },
           {
-            nameLab: "Nome do curso",
+            nameLab: "Cursos in company",
             description:
-              "Lorem Ipsum is simply dummy text of the printing and typesetti Maker including versions of Lorem Ipsum.",
+              "A Educação Executiva Mackenzie oferece aos executivos de diversos setores ferramentas, estrutura e aprendizado necessários para liderar e se destacar no ambiente corporativo.",
             imgCard: "/banners/image3.jpg",
             toLink: "./homeMack",
           },
           {
-            nameLab: "Nome do curso",
+            nameLab: "Produtos",
             description:
-              "Lorem Ipsum is simply dummy text of the printing and typese desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+              "Catálogo On-line - Editora Mackenzie Seja um Polo EaD Convênio Educacional",
             imgCard: "/banners/image4.jpg",
             toLink: "./homeMack",
           },
           {
-            nameLab: "Nome do curso",
+            nameLab: "Webinar, workshop e palestras",
             description:
-              "Lorem Ipsum is simply dummy text of the printing and typesetstandard dummy text ever since the 1500m Ipsum.",
-            imgCard: "/banners/image5.jpg",
+              "O Mackenzie Soluções trabalha em parceria com o cliente, preparando a empresa para responder rapidamente e com muita competência às demandas e oportunidades que o mercado oferece.",
+            imgCard: "/banners/image4.jpg",
             toLink: "./homeMack",
           },
           {
-            nameLab: "Nome do curso",
+            nameLab: "Locação de espaço",
             description:
-              "Dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, ke Aldus PageMaker including versions of Lorem Ipsum.",
-            imgCard: "/banners/image6.jpg",
+              "O Mackenzie Soluções trabalha em parceria com o cliente, preparando a empresa para responder rapidamente e com muita competência às demandas e oportunidades que o mercado oferece.",
+            imgCard: "/banners/image4.jpg",
             toLink: "./homeMack",
           },
         ],
@@ -123,16 +123,13 @@ export default {
 .cnt {
   display: flex;
   flex-direction: column;
-  background: blue;
   width: 100%;
 }
-
 .container {
+  padding-top: 60px;
   max-width: 1000px;
-  background: green;
   margin: auto;
 }
-
 .pesquisar {
   height: 40px;
   margin: 30px 0;
@@ -220,7 +217,6 @@ h5 {
   width: 100%;
   margin: 50px 0;
 }
-
 h2 {
   color: white;
   font-size: 28px;
@@ -228,7 +224,6 @@ h2 {
   margin-top: 30px;
 }
 /* Contato */
-
 .contact {
   background: white;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.582);
@@ -253,13 +248,11 @@ h2 {
 h4 {
   font-size: 26px;
 }
-
 .cont-input {
   display: flex;
   align-items: center;
   white-space: nowrap;
 }
-
 .cont-input p {
   margin-right: 10px;
   text-align: right;
@@ -275,7 +268,6 @@ h4 {
   height: 28px;
   border: 1px solid rgb(174, 174, 174);
 }
-
 .map {
   width: 100%;
   height: 100%;
