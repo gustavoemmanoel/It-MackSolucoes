@@ -1,5 +1,9 @@
 <template>
   <div>
+    <el-button>
+      mateus
+    </el-button>
+
     <NewHeader />
     <router-view />
     <NewFooter />
