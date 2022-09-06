@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import homeMack from '../views/homeMack'
 import MackenzieSolucoes from '../views/MackenzieSolucoes.vue'
+import CursoMack from '../views/CursoMack.vue'
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: '/MackenzieSolucoes',
     name: 'MackenzieSolucoes',
     component: MackenzieSolucoes
+  },
+  {
+    path: '/CursoMack',
+    name: 'CursoMack',
+    component: CursoMack
   },
 
 ]
