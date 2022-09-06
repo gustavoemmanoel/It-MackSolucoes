@@ -3,22 +3,18 @@
     <div class="top">
       <div class="cont-logo">
         <img class="logo" src="/MCK.png" />
-        <router-link class="routerLink" to="MackenzieSolucoes"
-          >Mackenzie Soluções</router-link
-        >
+        <router-link class="routerLink" to="MackenzieSolucoes">Mackenzie Soluções</router-link>
       </div>
     </div>
 
     <nav class="nav">
       <router-link class="routerLink" to="/homeMack">Home</router-link>
-      <router-link class="routerLink" to="/homeMack"
-        >Cursos de Educação Corporativa</router-link
-      >
+      <button type="button" class="btn btn-outline-primary">Primary</button>
       <router-link class="routerLink" to="/homeMack">Consultorias</router-link>
       <router-link class="routerLink" to="/homeMack">Produtos</router-link>
-      <router-link class="routerLink" to="/homeMack"
-        >Estrutura oferecida
+      <router-link class="routerLink" to="/homeMack">Estrutura oferecida
       </router-link>
+      
       <router-link class="routerLink" to="/homeMack">Vídeos</router-link>
       <router-link class="routerLink" to="/homeMack">Quem somos</router-link>
       <router-link class="routerLink" to="/homeMack">Contatos</router-link>
@@ -38,6 +34,7 @@ export default {
   height: 80px;
   width: 100%;
 }
+
 .cont-logo p {
   display: flex;
   align-items: center;
@@ -47,12 +44,14 @@ export default {
   border-style: solid;
   border-color: white;
 }
+
 .cont-logo {
   display: flex;
   align-items: center;
   color: white;
   gap: 10px;
 }
+
 .logo {
   width: 200px;
 }
@@ -81,5 +80,14 @@ export default {
   border-width: 0 1px 0 0;
   border-style: solid;
   border-color: white;
+}
+
+.dropD{
+  background-color: #3c3c3c;
+  color: white;
+  border: none;
+}
+select::selection{
+  background-color: red;
 }
 </style>
