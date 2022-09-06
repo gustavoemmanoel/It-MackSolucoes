@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import homeMack from '../views/homeMack'
 import MackenzieSolucoes from '../views/MackenzieSolucoes.vue'
 import CursoMack from '../views/CursoMack.vue'
+import Contato from '../views/Contato.vue'
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/CursoMack',
     name: 'CursoMack',
     component: CursoMack
+  },
+  {
+    path: '/Contato',
+    name: 'Contato',
+    component: Contato
   },
 
 ]

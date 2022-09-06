@@ -233,11 +233,7 @@ h2 {
   padding: 30px;
   box-sizing: border-box;
 }
-.cont-contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
+
 .elementoX {
   display: flex;
   height: 26px;
@@ -248,16 +244,13 @@ h2 {
 h4 {
   font-size: 26px;
 }
-.cont-input {
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
+
+.cont-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
-.cont-input p {
-  margin-right: 10px;
-  text-align: right;
-  width: 100px;
-}
+
 .fale {
   display: flex;
   flex-direction: column;
@@ -268,6 +261,18 @@ h4 {
   height: 28px;
   border: 1px solid rgb(174, 174, 174);
 }
+
+.cont-input {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.cont-input p {
+  margin-right: 10px;
+  text-align: right;
+  width: 100px;
+}
+
 .map {
   width: 100%;
   height: 100%;
