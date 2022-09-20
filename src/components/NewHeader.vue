@@ -12,7 +12,8 @@
     <nav class="nav bg-dark justify-content-center">
       <router-link class=" linha nav-link nav-item active" to="/Home">Home</router-link>
       <div class="nav-link nav-item dropdown">
-        <button class="bg-dark text-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="bg-dark text-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
           Cursos de Educação Corporativa
         </button>
         <ul class="dropdown-menu">
@@ -27,8 +28,10 @@
       <router-link class="nav-link nav-item" to="/homeMack">Quem somos</router-link>
       <router-link class="nav-link nav-item" to="/Contato">Contatos</router-link>
     </nav>
-
-    <img class="banner" src="/banners/image1.jpg" />
+    <div class="bannerContainer">
+      <h1>Cursos Executivo</h1>
+      <img class="banner" src="/banners/image1.jpg" />
+    </div>
   </div>
 </template>
 <script>
@@ -65,11 +68,26 @@ export default {
   width: 200px;
 }
 
-.banner {
+.bannerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 200px;
   width: 100%;
+  position: relative;
+
+}
+h1{
+  z-index: 1;
+  position: relative;
+  color: #Fafafa;
+}
+.banner {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
   object-fit: cover;
-  background: red;
 }
 
 
@@ -86,7 +104,8 @@ export default {
 .linha {
   border-width: 0 1px 0 1px;
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
   border: none;
   font-weight: 300;
 }
