@@ -27,17 +27,17 @@
           <li><a class="dropdown-item" href="/Extensao">Extensão</a></li>
         </ul>
       </div>
-      <router-link class="nav-link nav-item" to="/homeMack"
+      <router-link class="nav-link nav-item" to="/Consultorias"
         >Consultorias</router-link
       >
-      <router-link class="nav-link nav-item" to="/homeMack"
+      <router-link class="nav-link nav-item" to="/Produtos"
         >Produtos</router-link
       >
-      <router-link class="nav-link nav-item" to="/homeMack"
+      <router-link class="nav-link nav-item" to="/Consultorias"
         >Estrutura oferecida</router-link
       >
       <router-link class="nav-link nav-item" to="/Videos">Vídeos</router-link>
-      <router-link class="nav-link nav-item" to="/homeMack"
+      <router-link class="nav-link nav-item" to="/QuemSomos"
         >Quem somos</router-link
       >
       <router-link class="nav-link nav-item" to="/Contato"
