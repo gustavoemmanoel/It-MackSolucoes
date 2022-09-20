@@ -212,7 +212,7 @@
 
 <script>
 export default {
-  name: "CursoMack",
+  name: "Atuario",
 };
 </script>
 

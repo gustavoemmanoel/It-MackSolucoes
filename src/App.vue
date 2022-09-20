@@ -25,7 +25,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
 /* font-family: 'Roboto Slab', serif; */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   padding: 0;
   margin: 0;
 }

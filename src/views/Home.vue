@@ -65,7 +65,7 @@
 </template>
 <script>
 export default {
-  name: "MackenzieSolucoes",
+  name: "Home",
   data() {
     return {
       cardInfos: {

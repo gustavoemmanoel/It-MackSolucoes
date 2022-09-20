@@ -32,7 +32,7 @@
 </template>
 <script>
 export default {
-  name: "ContatoMack",
+  name: "Contato",
 };
 </script>
 
