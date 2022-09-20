@@ -24,14 +24,24 @@
       <router-link class="nav-link nav-item" to="/homeMack">Consultorias</router-link>
       <router-link class="nav-link nav-item" to="/homeMack">Produtos</router-link>
       <router-link class="nav-link nav-item" to="/homeMack">Estrutura oferecida</router-link>
-      <router-link class="nav-link nav-item" to="/homeMack">Vídeos</router-link>
+      <router-link class="nav-link nav-item" to="/Videos">Vídeos</router-link>
       <router-link class="nav-link nav-item" to="/homeMack">Quem somos</router-link>
       <router-link class="nav-link nav-item" to="/Contato">Contatos</router-link>
     </nav>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <img class="banner" src="/banners/image1.jpg" />
+=======
+>>>>>>> Stashed changes
     <div class="bannerContainer">
       <h1>Cursos Executivo</h1>
       <img class="banner" src="/banners/image1.jpg" />
     </div>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 036568c42dd2072c140001abe801ee86116c9438
+>>>>>>> Stashed changes
   </div>
 </template>
 <script>

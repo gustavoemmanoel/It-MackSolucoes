@@ -21,6 +21,7 @@ import GovernancaPatrimoniais from '../views/Cursos/Executivo/Contabil/Governanc
 import GovernancaPensao from '../views/Cursos/Executivo/Contabil/GovernancaPensao.vue'
 import IFRS from '../views/Cursos/Executivo/Contabil/IFRS.vue'
 import ReconhecimentoReceitas from '../views/Cursos/Executivo/Contabil/ReconhecimentoReceitas.vue'
+import Videos from '../views/Videos.vue'
 
 // Tela de contato
 import Contato from '../views/Contato.vue'
@@ -121,6 +122,12 @@ const routes = [
     path: '/Contato',
     name: 'Contato',
     component: Contato
+  },
+
+  {
+    path: '/Videos',
+    name: 'Videos',
+    component: Videos
   },
 
 ]
