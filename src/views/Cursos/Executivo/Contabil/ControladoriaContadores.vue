@@ -6,7 +6,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>Sobre</h1>
+            <h2>Sobre</h2>
           </div>
           <p>
             Em um mundo influenciado pelas mudanças estruturais aceleradas, as
@@ -27,7 +27,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>Para Quem é o Curso?</h1>
+            <h2>Para Quem é o Curso ?</h2>
           </div>
 
           <ul>
@@ -53,7 +53,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>Conteúdo</h1>
+            <h2>Conteúdo</h2>
           </div>
 
           <ul>
@@ -95,7 +95,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>Metodologia</h1>
+            <h2>Metodologia</h2>
           </div>
 
           <p>
@@ -109,7 +109,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>O Que o Faz Único?</h1>
+            <h2>O Que o Faz Único?</h2>
           </div>
 
           <p>
@@ -126,7 +126,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>O Que o Faz Único?</h1>
+            <h2>O Que o Faz Único?</h2>
           </div>
           <div class="grid-profs">
             <div class="card-profs">
@@ -156,11 +156,9 @@
       </div>
       <aside>
         <div class="cont-conteudo">
-          <h1>BUSINESS ACUMEN SIMULATION GAME</h1>
-          <br />
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>O Que o Faz Único?</h1>
+            <h2>O Que o Faz Único?</h2>
           </div>
           <br />
           <ul>
@@ -180,7 +178,7 @@
         <div class="cont-conteudo">
           <div class="cont-elementX">
             <div class="elementX"></div>
-            <h1>O Que o Faz Único?</h1>
+            <h2>O Que o Faz Único?</h2>
           </div>
           <div class="img-videos">
             <div>
@@ -218,7 +216,6 @@ export default {
 
 <style scoped>
 .container {
-  max-width: 1000px;
   margin: auto;
 }
 

@@ -9,7 +9,7 @@
               <div class="container-card">
                 <img class="img" :src="grid.imgCard" />
                 <div class="hover" />
-                <p class="text-card-hover">Visitar</p>
+                <p class="text-card-hover">Saiba mais</p>
               </div>
               <div class="cont-text">
                 <div style="display: flex; gap: 5px; margin-bottom: 10px">
