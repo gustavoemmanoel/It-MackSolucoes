@@ -3,17 +3,23 @@
     <div class="top">
       <div class="cont-logo">
         <img class="logo" src="/MCK.png" />
-        <router-link class="nav-link" to="MackenzieSolucoes">Mackenzie Soluções</router-link>
+        <router-link class="nav-link" to="MackenzieSolucoes"
+          >Mackenzie Soluções</router-link
+        >
       </div>
     </div>
 
-
-
     <nav class="nav bg-dark justify-content-center">
-      <router-link class=" linha nav-link nav-item active" to="/Home">Home</router-link>
+      <router-link class="linha nav-link nav-item active" to="/Home"
+        >Home</router-link
+      >
       <div class="nav-link nav-item dropdown">
-        <button class="bg-dark text-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
+        <button
+          class="bg-dark text-light dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
           Cursos de Educação Corporativa
         </button>
         <ul class="dropdown-menu">
@@ -21,27 +27,27 @@
           <li><a class="dropdown-item" href="/Extensao">Extensão</a></li>
         </ul>
       </div>
-      <router-link class="nav-link nav-item" to="/homeMack">Consultorias</router-link>
-      <router-link class="nav-link nav-item" to="/homeMack">Produtos</router-link>
-      <router-link class="nav-link nav-item" to="/homeMack">Estrutura oferecida</router-link>
+      <router-link class="nav-link nav-item" to="/homeMack"
+        >Consultorias</router-link
+      >
+      <router-link class="nav-link nav-item" to="/homeMack"
+        >Produtos</router-link
+      >
+      <router-link class="nav-link nav-item" to="/homeMack"
+        >Estrutura oferecida</router-link
+      >
       <router-link class="nav-link nav-item" to="/Videos">Vídeos</router-link>
-      <router-link class="nav-link nav-item" to="/homeMack">Quem somos</router-link>
-      <router-link class="nav-link nav-item" to="/Contato">Contatos</router-link>
+      <router-link class="nav-link nav-item" to="/homeMack"
+        >Quem somos</router-link
+      >
+      <router-link class="nav-link nav-item" to="/Contato"
+        >Contatos</router-link
+      >
     </nav>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    <img class="banner" src="/banners/image1.jpg" />
-=======
->>>>>>> Stashed changes
     <div class="bannerContainer">
       <h1>Cursos Executivo</h1>
       <img class="banner" src="/banners/image1.jpg" />
     </div>
-<<<<<<< Updated upstream
-=======
->>>>>>> 036568c42dd2072c140001abe801ee86116c9438
->>>>>>> Stashed changes
   </div>
 </template>
 <script>
@@ -78,19 +84,18 @@ export default {
   width: 200px;
 }
 
-.bannerContainer{
+.bannerContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 200px;
   width: 100%;
   position: relative;
-
 }
-h1{
+h1 {
   z-index: 1;
   position: relative;
-  color: #Fafafa;
+  color: #fafafa;
 }
 .banner {
   top: 0;
@@ -100,9 +105,8 @@ h1{
   object-fit: cover;
 }
 
-
 .nav-link {
-  color: #Fafafa;
+  color: #fafafa;
   text-decoration: none;
   font-weight: 300;
   padding-right: 15px;
