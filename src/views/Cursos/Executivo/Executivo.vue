@@ -1,37 +1,48 @@
 <template>
-  <div class="container">
-    <input class="pesquisar" type="text" placeholder="Digite um curso" />
-    <div class="card-grid">
-      <div v-for="(grid, index) in cardInfos.conteudos" :key="index">
-        <div>
-          <router-link class="routerLink" :to="grid.toLink">
-            <div class="card">
-              <div class="container-card">
-                <img class="img" :src="grid.imgCard" />
-                <div class="hover" />
-                <p class="text-card-hover">Saiba mais</p>
-              </div>
-              <div class="cont-text">
-                <div style="display: flex; gap: 5px; margin-bottom: 10px">
-                  <div class="elementoX"></div>
-                  <h5>
-                    {{ grid.nameLab }}
-                  </h5>
+  <div>
+    <NewHeader :bannerConteudo="bannerConteudo" />
+    <div class="container">
+      <input class="pesquisar" type="text" placeholder="Digite um curso" />
+      <div class="card-grid">
+        <div v-for="(grid, index) in cardInfos.conteudos" :key="index">
+          <div>
+            <router-link class="routerLink" :to="grid.toLink">
+              <div class="card">
+                <div class="container-card">
+                  <img class="img" :src="grid.imgCard" />
+                  <div class="hover" />
+                  <p class="text-card-hover">Saiba mais</p>
                 </div>
-                <p>{{ grid.description }}</p>
-              </div>
-            </div></router-link
-          >
+                <div class="cont-text">
+                  <div style="display: flex; gap: 5px; margin-bottom: 10px">
+                    <div class="elementoX"></div>
+                    <h5>
+                      {{ grid.nameLab }}
+                    </h5>
+                  </div>
+                  <p>{{ grid.description }}</p>
+                </div>
+              </div></router-link
+            >
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import NewHeader from "../../../components/NewHeader.vue";
 export default {
   name: "Executivo",
+  components: {
+    NewHeader,
+  },
   data() {
     return {
+      bannerConteudo: {
+        titleBanner: "Executivo",
+        imgBanner: "/videos/img_1.jpg",
+      },
       cardInfos: {
         conteudos: [
           {

@@ -1,28 +1,39 @@
 <template>
-  <div class="container">
-    <div class="flex" v-for="(youtubeX, index) in youtube" :key="index">
-      <div class="contImg">
-        <img class="imgYt" :src="youtubeX.imgYt" />
-        <div class="time">{{ youtubeX.time }}</div>
-      </div>
-      <div>
-        <h6>
-          {{ youtubeX.title }}
-        </h6>
-        <p>{{ youtubeX.data }}</p>
-        <p class="description">
-          {{ youtubeX.descricao }}
-        </p>
+  <div>
+    <NewHeader :bannerConteudo="bannerConteudo" />
+    <div class="container">
+      <div class="flex" v-for="(youtubeX, index) in youtube" :key="index">
+        <div class="contImg">
+          <img class="imgYt" :src="youtubeX.imgYt" />
+          <div class="time">{{ youtubeX.time }}</div>
+        </div>
+        <div>
+          <h6>
+            {{ youtubeX.title }}
+          </h6>
+          <p>{{ youtubeX.data }}</p>
+          <p class="description">
+            {{ youtubeX.descricao }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import NewHeader from "../components/NewHeader.vue";
 export default {
   name: "Videos",
+  components: {
+    NewHeader,
+  },
   data() {
     return {
+      bannerConteudo: {
+        titleBanner: "Produtos",
+        imgBanner: "/banners/image3.jpg",
+      },
       youtube: [
         {
           title:

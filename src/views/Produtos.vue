@@ -1,19 +1,21 @@
 <template>
-  <div><NewHeader :bannerConteudo="bannerConteudo" /></div>
+  <div>
+    <NewHeader :bannerConteudo="bannerConteudo" />
+  </div>
 </template>
 
 <script>
 import NewHeader from "../components/NewHeader.vue";
 export default {
-  name: "QuemSomos",
+  name: "Produtos",
   components: {
     NewHeader,
   },
   data() {
     return {
       bannerConteudo: {
-        titleBanner: "Executivo",
-        imgBanner: "/videos/img_1.jpg",
+        titleBanner: "Produtos",
+        imgBanner: "/banners/image3.jpg",
       },
     };
   },

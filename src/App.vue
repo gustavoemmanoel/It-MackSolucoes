@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NewHeader />
     <router-view />
     <NewFooter />
   </div>
@@ -8,11 +7,9 @@
 
 <script>
 import NewFooter from "./components/NewFooter.vue";
-import NewHeader from "./components/NewHeader.vue";
 export default {
   name: "app",
   components: {
-    NewHeader,
     NewFooter,
   },
 };

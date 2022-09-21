@@ -21,20 +21,32 @@ import IFRS from "../views/Cursos/Executivo/Contabil/IFRS.vue";
 import ReconhecimentoReceitas from "../views/Cursos/Executivo/Contabil/ReconhecimentoReceitas.vue";
 
 // Telas do Header
-import Home from "../views/Home.vue";
+import PaginaInicial from "../views/PaginaInicial.vue";
 import Videos from "../views/Videos.vue";
 import EstruturaOferecida from "../views/EstruturaOferecida.vue";
 import QuemSomos from "../views/QuemSomos.vue";
 import Consultorias from "../views/Consultorias.vue";
+import Produtos from "../views/Produtos.vue";
+import Extensao from "../views/Extensao.vue";
 
 // Tela de contato
 import Contato from "../views/Contato.vue";
 
 const routes = [
   {
+    path: "/Extensao",
+    name: "Extensao",
+    component: Extensao,
+  },
+  {
     path: "/Contato",
     name: "Contato",
     component: Contato,
+  },
+  {
+    path: "/Produtos",
+    name: "Produtos",
+    component: Produtos,
   },
   {
     path: "/Videos",
@@ -57,9 +69,9 @@ const routes = [
     component: Consultorias,
   },
   {
-    path: "/Home",
-    name: "Home",
-    component: Home,
+    path: "/PaginaInicial",
+    name: "PaginaInicial",
+    component: PaginaInicial,
   },
   {
     path: "/Executivo",

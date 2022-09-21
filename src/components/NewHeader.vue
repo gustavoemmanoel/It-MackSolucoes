@@ -10,8 +10,8 @@
     </div>
 
     <nav class="nav bg-dark justify-content-center">
-      <router-link class="linha nav-link nav-item active" to="/Home"
-        >Home</router-link
+      <router-link class="linha nav-link nav-item active" to="/PaginaInicial"
+        >Página Inicial</router-link
       >
       <div class="nav-link nav-item dropdown">
         <button
@@ -33,7 +33,7 @@
       <router-link class="nav-link nav-item" to="/Produtos"
         >Produtos</router-link
       >
-      <router-link class="nav-link nav-item" to="/Consultorias"
+      <router-link class="nav-link nav-item" to="/EstruturaOferecida"
         >Estrutura oferecida</router-link
       >
       <router-link class="nav-link nav-item" to="/Videos">Vídeos</router-link>
@@ -45,14 +45,17 @@
       >
     </nav>
     <div class="bannerContainer">
-      <h1>Cursos Executivo</h1>
-      <img class="banner" src="/banners/image1.jpg" />
+      <h1>{{ bannerConteudo.titleBanner }}</h1>
+      <img class="banner" :src="bannerConteudo.imgBanner" />
     </div>
   </div>
 </template>
 <script>
 export default {
   name: "NewHeader",
+  props: {
+    bannerConteudo: String,
+  },
 };
 </script>
 

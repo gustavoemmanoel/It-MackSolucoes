@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NewHeader :bannerConteudo="bannerConteudo" />
     <div class="contact">
       <div style="display: flex; gap: 5px; margin-bottom: 10px">
         <div class="elementoX"></div>
@@ -31,8 +32,20 @@
   </div>
 </template>
 <script>
+import NewHeader from "../components/NewHeader.vue";
 export default {
   name: "Contato",
+  components: {
+    NewHeader,
+  },
+  data() {
+    return {
+      bannerConteudo: {
+        titleBanner: "Produtos",
+        imgBanner: "/banners/image3.jpg",
+      },
+    };
+  },
 };
 </script>
 

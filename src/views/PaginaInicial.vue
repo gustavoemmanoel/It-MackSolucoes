@@ -1,5 +1,6 @@
 <template>
   <div class="cnt">
+    <NewHeader :bannerConteudo="bannerConteudo" />
     <div class="container">
       <div class="card-grid">
         <div v-for="(grid, index) in cardInfos.conteudos" :key="index">
@@ -64,10 +65,19 @@
   </div>
 </template>
 <script>
+import NewHeader from "../components/NewHeader.vue";
+
 export default {
-  name: "Home",
+  name: "PaginaInicial",
+  components: {
+    NewHeader,
+  },
   data() {
     return {
+      bannerConteudo: {
+        titleBanner: "Curso Executivo",
+        imgBanner: "/banners/image6.jpg",
+      },
       cardInfos: {
         conteudos: [
           {
