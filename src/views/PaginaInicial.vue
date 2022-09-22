@@ -28,9 +28,41 @@
       </div>
     </div>
     <div class="cont-carrossel">
-      <h2>Clientes</h2>
-      <div class="carrossel">
-        <img src="" />
+      <div class="contCarro">
+        <h2>Clientes</h2>
+        <div class="carrossel">
+          <div>
+            <img class="imgCarrossel" src="/clientes/natura.jpg" />
+            <p class="textCarro">
+              Is a long established fact that a reader will be distracted by
+              the readable.
+            </p>
+          </div>
+          <div>
+            <img class="imgCarrossel" src="/clientes/sky.jpg" />
+            <p class="textCarro">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
+              similique, error eaque a voluptates temporibus quia consequatur ex
+              ipsum doloremque soluta.
+            </p>
+          </div>
+          <div>
+            <img class="imgCarrossel" src="/clientes/google.jpg" />
+            <p class="textCarro">
+              Along established fact that a reader will be distracted by
+              the readable content of a page when lookinto using 'Content here,
+              content here', making it look like readable English. Many desktop
+              p
+            </p>
+          </div>
+          <div>
+            <img class="imgCarrossel" src="/clientes/face.jpg" />
+            <p class="textCarro">
+              Is a long established fact that a reader will be distracted by
+              the readable content of a page when lookinto using.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="contact">
@@ -136,7 +168,7 @@ export default {
   width: 100%;
 }
 .container {
-  padding-top: 60px;
+  padding-top: 160px;
   max-width: 1000px;
   margin: auto;
 }
@@ -158,6 +190,7 @@ export default {
 .card {
   background: #fafafa;
   width: 100%;
+  height: 340px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.149);
   cursor: pointer;
 }
@@ -220,19 +253,7 @@ h5 {
   color: #5f5f5f;
   font-size: 14px;
 }
-/*  */
-.cont-carrossel {
-  background: #262626;
-  height: 375px;
-  width: 100%;
-  margin: 50px 0;
-}
-h2 {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  margin-top: 30px;
-}
+
 /* Contato */
 .contact {
   background: white;
@@ -287,5 +308,55 @@ h4 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Carrossel */
+h2 {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cont-carrossel {
+  background: #262626;
+  width: 100%;
+  margin: 50px 0;
+  padding: 30px 0;
+}
+
+.contCarro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 100%;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+
+.carrossel div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  overflow-x: auto;
+}
+
+.imgCarrossel {
+  height: 120px;
+}
+.textCarro {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 12px;
 }
 </style>

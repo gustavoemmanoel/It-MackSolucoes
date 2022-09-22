@@ -41,7 +41,7 @@ export default {
     return {
       bannerConteudo: {
         titleBanner: "Executivo",
-        imgBanner: "/videos/img_1.jpg",
+        imgBanner: "/banners/image5.jpg",
       },
       cardInfos: {
         conteudos: [
@@ -193,6 +193,8 @@ export default {
 .card {
   background: #fafafa;
   width: 100%;
+  height: 340px;
+  overflow: hidden;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.149);
   cursor: pointer;
 }

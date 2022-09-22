@@ -79,7 +79,7 @@ export default {
 
 <style>
 .container {
-  margin-top: 30px;
+  padding-top: 30px;
   width: 1200px;
 }
 .flex {
