@@ -29,4 +29,23 @@ export default {
 .routerLink {
   text-decoration: none;
 }
+.flex {
+  display: flex;
+}
+.cont-elementX {
+  margin: 0 0 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.elementX {
+  width: 5px;
+  height: 30px;
+  margin-right: 7px;
+  background: #24698f;
+}
+
+.cont-elementX h2 {
+  margin: 0;
+}
 </style>

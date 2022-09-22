@@ -251,19 +251,6 @@ export default {
   color: #262626;
 }
 
-.cont-elementX {
-  margin: 0 0 15px 0;
-  display: flex;
-  align-items: center;
-}
-
-.elementX {
-  width: 5px;
-  height: 30px;
-  margin-right: 7px;
-  background: #24698f;
-}
-
 ul {
   margin-left: 30px;
 }
