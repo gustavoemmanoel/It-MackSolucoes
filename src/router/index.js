@@ -78,6 +78,7 @@ const routes = [
     name: "Executivo",
     component: Executivo,
   },
+  // Cursos
   {
     path: "/ApresentacaoFinanceira",
     name: "ApresentacaoFinanceira",

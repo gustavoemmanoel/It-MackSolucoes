@@ -1,7 +1,7 @@
 <template>
   <div>
     <NewHeader :bannerConteudo="bannerConteudo" />
-    <div>Consultorias</div>
+ 
   </div>
 </template>
 

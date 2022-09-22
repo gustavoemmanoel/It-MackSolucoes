@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       bannerConteudo: {
-        titleBanner: "Produtos",
+        titleBanner: "Estrutura Oferecida",
         imgBanner: "/banners/image3.jpg",
       },
     };

@@ -12,8 +12,8 @@ export default {
   data() {
     return {
       bannerConteudo: {
-        titleBanner: "Executivo",
-        imgBanner: "/videos/img_1.jpg",
+        titleBanner: "Quem somos",
+        imgBanner: "/banners/image1.jpg",
       },
     };
   },
