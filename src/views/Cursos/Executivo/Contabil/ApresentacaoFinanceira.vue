@@ -8,22 +8,14 @@
           <div class="cont-conteudo">
             <div class="cont-elementX">
               <div class="elementX"></div>
-              <h2>Sobre</h2>
+              <h2>Apresentação das demonstrações financeiras</h2>
             </div>
             <p>
-              Em um mundo influenciado pelas mudanças estruturais aceleradas, as
-              competências requeridas para um executivo ou empreendedor que
-              gerencia uma startup cada vez se aproximam mais: visão integrada de
-              negócio, compreensão das relações de causa e efeito, protagonismo,
-              visão de dono, gestão financeira focada em resultados e disposição
-              para assumir riscos (de forma controlada) com o objetivo de inovar -
-              de maneira ágil. Estas são as competências desenvolvidas nesse
-              treinamento inovador e de alto impacto. Coloque seus profissionais
-              no comando dos negócios para “pilotar” uma empresa virtual, como os
-              pilotos fazem em simuladores de voo. Com a orientação dos nossos
-              instrutores em um ambiente envolvente e de aprendizagem prática, os
-              participantes aprenderão a “ler” o mercado e o desempenho da
-              empresa, identificando as decisões que geram valor para os negócios.
+              As demonstrações contábeis representam a realidade econômica das entidades. O conhecimento das técnicas de
+              análise das demonstrações contábeis é fundamental para se poder interpretar essa realidade econômica.
+              Assim, se faz relevante para a gestão financeira das empresas, entendimento de setores econômicos,
+              investimentos em ações, análise de crédito, aprofundamento do entendimento dos impactos das transações
+              econômicas nas empresas entre tantas outras utilidades.
             </p>
           </div>
           <div class="cont-conteudo">
@@ -31,24 +23,10 @@
               <div class="elementX"></div>
               <h2>Para Quem é o Curso ?</h2>
             </div>
-            <ul>
-              <li>
-                A competência de business acumen é requerida para profissionais de
-                diferentes áreas nas empresas.
-              </li>
-              <li>
-                Profissionais em fase de evolução na carreira necessitando ganhar
-                experiência acelerada.
-              </li>
-              <li>
-                Gerentes e novos executivos necessitando de aprofundamento e
-                formação financeira.
-              </li>
-              <li>
-                Participantes em programas de desenvolvimento de liderança
-                multifuncional
-              </li>
-            </ul>
+            <p>Profissionais das áreas de contabilidade, informações gerenciais, finanças, auditoria, controles internos
+              e relação com investidores de empresas e instituições financeiras, bem como estudantes e profissionais
+              interessados em adquirir conhecimentos técnicos sobre o processo de elaboração de demonstrações contábeis.
+            </p>
           </div>
           <div class="cont-conteudo">
             <div class="cont-elementX">
@@ -56,38 +34,21 @@
               <h2>Conteúdo</h2>
             </div>
             <ul>
-              <li>
-                Business Acumen: Conheça em profundidade como uma empresa opera,
-                ganhar dinheiro, como avalia o desempenho e como planeja o futuro.
-              </li>
-              <li>
-                Estratégia de negócios: Compreenda o que de fato é estratégia.
-                Como transformar planos em ações alinhadas com os objetivos de
-                negócios.
-              </li>
-              <li>
-                Geração de valor: O que é valor? Qual a sua importância para o
-                mundo real? Como tomar decisões baseadas em geração de valor?
-              </li>
-              <li>
-                Interpretação e análise financeira: Compreenda o que está por trás
-                dos números. O que nos informam os demonstrativos fianceiros?
-                Finanças para quem não é da área financeira.
-              </li>
-              <li>
-                Market Maker ou Market Taker: Como gerar demanda para a sua
-                empresa? Interpretando as necessidades dos clientes. Como
-                segmentar os consumidores?
-              </li>
-              <li>
-                Alinhamento estratégico: Fatores críticos de sucesso.
-                Indicadores-chave de performance. Balanced Scorecard.
-              </li>
-              <li>
-                Diferenciais competitivos: Por que temos que desenvolver
-                diferenciais competitivos? Exemplos e impactos na sobrevivência e
-                na sustentabilidade da empresa.
-              </li>
+              <li>Técnicas de Análise Horizontal e Vertical e liquidez.</li>
+
+              <li>Análises da geração de caixa e de prazos médios.</li>
+
+              <li>Análise da estrutura patrimonial e das dívidas operacionais e financeiras.</li>
+
+              <li>Análise das margens e da geração e consumo de caixa.</li>
+
+              <li>Análise da Rentabilidade: retorno do patrimônio líquido, retorno do investimento.</li>
+
+              <li>Análise da Rentabilidade: retorno dos diferentes grupos de ativos, custo dos diferentes passivos, anatomia
+              completa da rentabilidade. Tratamento do Arrendamento.</li>
+
+              <li>Análise de Indicadores que se utilizam de dados de mercado. Elaboração do relatório de análise. Partindo
+              para o próximo passo: projeções.</li>
             </ul>
           </div>
           <div class="cont-conteudo">
@@ -120,59 +81,35 @@
           <div class="cont-conteudo">
             <div class="cont-elementX">
               <div class="elementX"></div>
-              <h2>O Que o Faz Único?</h2>
+              <h2>Corpo Docente</h2>
             </div>
             <div class="grid-profs">
               <div class="card-profs">
                 <img src="/profs/prof1.png" />
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry's standard dummy
-                  text ever since the 1500s, when an unknown printer took a galley
-                  of type and sc
-                </p>
-              </div>
-              <div class="card-profs">
-                <img src="/profs/prof1.png" />
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem to tContrary to popular belief, Lorem Ipsum is
-                </p>
-              </div>
-              <div class="card-profs">
-                <img src="/profs/prof1.png" />
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                </p>
+                <ul>
+                  <li>Bacharel em Ciências Contábeis pela Pontifícia Universidade Católica de SP – PUC.</li>
+                  <li>MBA em Gestão Financeira, Auditoria e Controladoria pela FGV – Fundação Getúlio Vargas.</li>
+                  <li>Mestrado em Ciências Contábeis pela Universidade Mackenzie.</li>
+                  <li>Professor Titular do Curso Ciências Contábeis – Contabilidade Internacional no Centro
+                    Universitário
+                    Fundação Santo André.</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <aside>
           <div class="cont-conteudo">
-            <div class="cont-elementX">
-              <div class="elementX"></div>
-              <h2>O Que o Faz Único?</h2>
-            </div>
-            <br />
-            <ul>
-              <li>Treinamento games-based learning de última geração.</li>
-              <li>
-                Totalmente on-line e responsivo, com desafios, quizzes e vídeos.
-              </li>
-              <li>Aprendizado individual ou competição entre equipes.</li>
-            </ul>
+            
             <button class="btn">
-              <h2>Compre aqui</h2>
-              <br />
-              Faça seu orçamento agora
+              <b>Faça seu orçamento agora</b>
             </button>
             <p>Mackenzie Soluções | Cursos Ecompany</p>
           </div>
           <div class="cont-conteudo">
             <div class="cont-elementX">
               <div class="elementX"></div>
-              <h2>O Que o Faz Único?</h2>
+              <h2>Webnars</h2>
             </div>
             <div class="img-videos">
               <div>
@@ -204,7 +141,7 @@
 </template>
 
 <script>
-  import NewHeader from "../../../../components/NewHeader.vue";
+import NewHeader from "../../../../components/NewHeader.vue";
 export default {
   name: "ApresentacaoFinaceira",
   components: {
@@ -213,8 +150,8 @@ export default {
   data() {
     return {
       bannerConteudo: {
-        titleBanner: "Estrutura Oferecida",
-        imgBanner: "/banners/image3.jpg",
+        titleBanner: "Apresentação das demonstrações financeiras",
+        imgBanner: "/banners/analise-das-demonstracoes-contabeis.jpg",
       },
     };
   },
@@ -244,13 +181,17 @@ export default {
   margin: 20px 0;
   padding: 25px 40px;
 }
+
 .cont-conteudo p,
 .cont-conteudo li {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #262626;
+  margin: 0;
 }
-
+h2{
+  font-size:20px ;
+}
 
 
 ul {
@@ -259,7 +200,7 @@ ul {
 
 .grid-profs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -274,7 +215,7 @@ ul {
 }
 
 .card-profs img {
-  width: 100%;
+  width: 250px;
 }
 
 .btn {
@@ -284,7 +225,7 @@ ul {
   color: white;
   background: #0086cf;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .img-videos div {

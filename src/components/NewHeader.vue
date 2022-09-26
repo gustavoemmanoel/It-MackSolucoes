@@ -99,6 +99,7 @@ h1 {
   z-index: 1;
   position: relative;
   color: #fafafa;
+  text-shadow: #3c3c3c 2px 2px 4px;
 }
 .banner {
   top: 0;

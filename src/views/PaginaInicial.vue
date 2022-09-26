@@ -107,7 +107,7 @@ export default {
   data() {
     return {
       bannerConteudo: {
-        titleBanner: "Curso Executivo",
+        titleBanner: "Mackenzie Soluções",
         imgBanner: "/banners/image6.jpg",
       },
       cardInfos: {
